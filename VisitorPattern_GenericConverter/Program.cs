@@ -11,6 +11,8 @@ namespace VisitorsPattern_GenericConverter
         static void Main(string[] args)
         {
             var book = new Book();
+			
+			//the story
             book.Add(new Title("Hansel and Gretel"));
             book.Add(new PlainText("Near a great forest there lived a poor woodcutter and his wife, and his two children."));
             book.Add(new BoldText("The boy's name was Hansel and the girl's Grethel"));
